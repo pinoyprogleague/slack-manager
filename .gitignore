@@ -3,6 +3,10 @@
 ### Example user template
 
 # IntelliJ project files
+*~
+.DS_Store
+workspace.xml
 .idea
 *.iml
 app/config/config.yml
+vendor
