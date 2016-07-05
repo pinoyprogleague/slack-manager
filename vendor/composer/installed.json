@@ -1,0 +1,96 @@
+[
+    {
+        "name": "frlnc/php-slack",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Frlnc/php-slack.git",
+            "reference": "07797663e8799407675d473d9153b260dd0fb023"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Frlnc/php-slack/zipball/07797663e8799407675d473d9153b260dd0fb023",
+            "reference": "07797663e8799407675d473d9153b260dd0fb023",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9",
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2016-04-10 18:57:50",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Frlnc\\Slack\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Connor Parks",
+                "email": "connor@connorvg.tv"
+            }
+        ],
+        "description": "A lightweight PHP implementation of Slack's API.",
+        "keywords": [
+            "slack"
+        ]
+    },
+    {
+        "name": "mustangostang/spyc",
+        "version": "0.5.1",
+        "version_normalized": "0.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mustangostang/spyc.git",
+            "reference": "dc4785b4d7227fd9905e086d499fb8abfadf9977"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mustangostang/spyc/zipball/dc4785b4d7227fd9905e086d499fb8abfadf9977",
+            "reference": "dc4785b4d7227fd9905e086d499fb8abfadf9977",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1"
+        },
+        "time": "2013-02-21 10:52:01",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.5.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Spyc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT License"
+        ],
+        "authors": [
+            {
+                "name": "mustangostang",
+                "email": "vlad.andersen@gmail.com"
+            }
+        ],
+        "description": "A simple YAML loader/dumper class for PHP",
+        "homepage": "https://github.com/mustangostang/spyc/",
+        "keywords": [
+            "spyc",
+            "yaml",
+            "yml"
+        ]
+    }
+]

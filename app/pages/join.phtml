@@ -1,0 +1,126 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+
+    <title>Pinoy Programmers League @ Slack</title>
+    <meta property="og:image" content="<?= BASE_URL ?>/assets/img/fb_preview.png" />
+    <link rel="stylesheet" href="<?= BOWER_URL ?>/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BOWER_URL ?>/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BOWER_URL ?>/sweetalert/dist/sweetalert.css">
+    <script src="<?= BOWER_URL ?>/jquery/dist/jquery.min.js"></script>
+    <script src="<?= BOWER_URL ?>/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">PPL</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="javascript:;">
+                        <span class="glyphicon glyphicon-home"></span>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/groups/pinoyprogleague">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;
+                        Join our Facebook group
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/PinoyProgLeague">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                        Like us on Facebook
+                    </a>
+                </li>
+<!--                <li><a href="#contact">Contact</a></li>-->
+<!--                <li class="dropdown">-->
+<!--                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"-->
+<!--                       aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+<!--                    <ul class="dropdown-menu">-->
+<!--                        <li><a href="#">Action</a></li>-->
+<!--                        <li><a href="#">Another action</a></li>-->
+<!--                        <li><a href="#">Something else here</a></li>-->
+<!--                        <li role="separator" class="divider"></li>-->
+<!--                        <li class="dropdown-header">Nav header</li>-->
+<!--                        <li><a href="#">Separated link</a></li>-->
+<!--                        <li><a href="#">One more separated link</a></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+            </ul>
+<!--            <ul class="nav navbar-nav navbar-right">-->
+<!--                <li><a href="../navbar/">Default</a></li>-->
+<!--                <li><a href="../navbar-static-top/">Static top</a></li>-->
+<!--                <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>-->
+<!--            </ul>-->
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container">
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <h2>Join our Slack community!</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-5">
+                <p>Slack is a slick chat interface that runs on your browser and has fully native apps for iOS, Android and your
+                    desktop. Our Slack community makes it easier to collaborate and talk with fellow <b>Pinoy Programmers
+                        League</b> members</p>.
+                <br>
+                <h5><a href="https://pinoyprogleague.slack.com">https://<b>pinoyprogleague</b>.slack.com</a></h5>
+            </div>
+            <div class="col-md-7" align="center">
+                <h5>Please enter your e-mail below and we'll send you an invite</h5>
+                <hr>
+                <form name="InviteForm" action="<?= BASE_URL ?>/join/rest" method="post">
+                    <p>
+                    <div class="input-group">
+                        <span class="input-group-addon">E-mail</span>
+                        <input type="email" name="email" class="form-control" placeholder="your@email.com">
+                    </div>
+                    <br>
+                    <button class="btn btn-primary" type="submit">
+                        <span class="glyphicon glyphicon-ok"></span>&nbsp;
+                        Submit
+                    </button>
+                    </p>
+                </form>
+                <hr>
+                <div align="left">
+                    <ul>
+                        <li>
+                            <small>We will send the invitation once only</small>
+                        </li>
+                        <li>
+                            <small>We will not record/store any of the information you'll provide</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- /container -->
+
+<script src="<?= BASE_URL ?>/assets/js/join.js"></script>
+<script src="<?= BOWER_URL ?>/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>

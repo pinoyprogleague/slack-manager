@@ -1,0 +1,14 @@
+{
+    "name": "allenlinatoc/slack-manager",
+    "require": {
+        "frlnc/php-slack": "^1.0",
+        "mustangostang/spyc": "^0.5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allen Linatoc",
+            "email": "linatoc.allen@programmer.net"
+        }
+    ]
+}
